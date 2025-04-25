@@ -72,8 +72,12 @@ if ack:
  print(ack)
 c.close()
 ```
+
+
 ##cleint
 ```
+
+
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
